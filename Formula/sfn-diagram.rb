@@ -3,28 +3,28 @@
 class SfnDiagram < Formula
   desc "Generate SVG, Mermaid, and HTML diagrams from AWS Step Functions definitions"
   homepage "https://sfn.yusufaf.dev"
-  version "1.9.0"
+  version "1.9.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yusufaf/sfn-diagram/releases/download/sfn-diagram-v1.9.0/sfn-diagram-darwin-arm64"
-      sha256 "b9a668261f200f3b37c17a6f5682fa30da51ae8c4eb97423aaf427a174565569"
+      url "https://github.com/yusufaf/sfn-diagram/releases/download/sfn-diagram-v1.9.1/sfn-diagram-darwin-arm64"
+      sha256 "81b849a12702b338dd9c6807482656bc804aedc4aa15b5d54972351df92584c2"
     end
     on_intel do
-      url "https://github.com/yusufaf/sfn-diagram/releases/download/sfn-diagram-v1.9.0/sfn-diagram-darwin-x64"
-      sha256 "9fc10520457eff5d9dfd20136748d2b896f2d5f88aae3a20ab724e38eb14d879"
+      url "https://github.com/yusufaf/sfn-diagram/releases/download/sfn-diagram-v1.9.1/sfn-diagram-darwin-x64"
+      sha256 "2bc263b736ecb011bd39d8f8e969b7f80376df8371aa84a717ff6296e5d02f2a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yusufaf/sfn-diagram/releases/download/sfn-diagram-v1.9.0/sfn-diagram-linux-arm64"
-      sha256 "9976a024d85d288ddcc79b14f88d7059fe9491a8358b18a96c26c4e2f95ba565"
+      url "https://github.com/yusufaf/sfn-diagram/releases/download/sfn-diagram-v1.9.1/sfn-diagram-linux-arm64"
+      sha256 "57d5c12f2b1359f27a20ed7aea14a64ad67c7882b132e22ef14133f4809dcdb0"
     end
     on_intel do
-      url "https://github.com/yusufaf/sfn-diagram/releases/download/sfn-diagram-v1.9.0/sfn-diagram-linux-x64"
-      sha256 "0e435a20a2aae994ad503fd0c50904c6df7d050f9690ff7ebf1ff802f74e3d51"
+      url "https://github.com/yusufaf/sfn-diagram/releases/download/sfn-diagram-v1.9.1/sfn-diagram-linux-x64"
+      sha256 "032edd5c2c76f23a18ed3ed263ea66009644703bd65d712e2a449de19848a7c7"
     end
   end
 
